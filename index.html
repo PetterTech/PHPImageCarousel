@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Lorem ipsum</title>
+</head>
+<body>
+    <div id="banner-images"> </div>
+    <script> 
+    var images = ['herobrine-16928972.png', 'purple-hoodie-supreme-slime-16913455.png', 'dream-16934605.png'];
+     
+    $('<img class="fade-in" src="images/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#banner-images');
+    </script>
+</body>
+</html>
